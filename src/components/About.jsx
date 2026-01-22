@@ -1,4 +1,5 @@
 import React from "react";
+import alexo from "../assets/alexo.jpg";
 
 export default function About() {
   return (
@@ -14,9 +15,18 @@ export default function About() {
                   className="w-full h-full object-cover object-center"
                   loading="lazy"
                 /> */}
-                <div className="inline-block">
+                {/* <div className="inline-block">
                   <img
                     src="../../dist/assets/alexo.jpg"
+                    alt="Alebachew Biset"
+                    className="max-w-full h-auto"
+                    loading="lazy"
+                  />
+                </div> */}
+
+                <div className="inline-block">
+                  <img
+                    src={alexo}
                     alt="Alebachew Biset"
                     className="max-w-full h-auto"
                     loading="lazy"
