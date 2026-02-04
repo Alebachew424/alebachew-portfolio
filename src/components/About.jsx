@@ -24,14 +24,14 @@ export default function About() {
                   />
                 </div> */}
 
-                <div className="inline-block">
-                  <img
-                    src={alex}
-                    alt="Alebachew Biset"
-                    className="max-w-full h-auto"
-                    loading="lazy"
-                  />
-                </div>
+               <div className="w-full max-w-md mx-auto h-80 sm:h-96 md:h-[28rem] bg-gradient-to-br from-primary-500 to-accent-500 rounded-2xl shadow-2xl overflow-hidden">
+  <img
+    src={alex}
+    alt="Alebachew Biset"
+    className="w-full h-full object-cover"
+    loading="lazy"
+  />
+</div>
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-accent-500 rounded-full opacity-20"></div>
               <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-primary-500 rounded-full opacity-20"></div>
