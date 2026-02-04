@@ -1,5 +1,5 @@
 import React from "react";
-import alexo from "../assets/alexo.jpg";
+import alex from "../assets/alex.jfif;
 
 export default function About() {
   return (
@@ -10,14 +10,14 @@ export default function About() {
             <div className="relative">
               <div className="w-full max-w-md mx-auto h-80 sm:h-96 md:h-[28rem] bg-gradient-to-br from-primary-500 to-accent-500 rounded-2xl shadow-2xl overflow-hidden">
                 {/* <img
-                  src="../../dist/assets/alexo.jpg"
+                  src="../../dist/assets/alex.jfif"
                   alt="Alebachew Biset"
                   className="w-full h-full object-cover object-center"
                   loading="lazy"
                 /> */}
                 {/* <div className="inline-block">
                   <img
-                    src="../../dist/assets/alexo.jpg"
+                    src="../../dist/assets/alex.jfif"
                     alt="Alebachew Biset"
                     className="max-w-full h-auto"
                     loading="lazy"
@@ -26,7 +26,7 @@ export default function About() {
 
                 <div className="inline-block">
                   <img
-                    src={alexo}
+                    src={alex}
                     alt="Alebachew Biset"
                     className="max-w-full h-auto"
                     loading="lazy"
