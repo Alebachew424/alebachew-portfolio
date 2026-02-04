@@ -1,5 +1,5 @@
 import React from "react";
-import alex from "../assets/alex.jfif;
+import alex from "../assets/alex.jfif";
 
 export default function About() {
   return (
